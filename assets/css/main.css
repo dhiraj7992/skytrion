@@ -10,6 +10,8 @@
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
+
+
 /* Fonts */
 :root {
   --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -952,7 +954,7 @@ section,
   position: relative;
   padding: 0px 0 60px 0;
   margin-bottom: -180px;
- 
+
   align-items: center;
 }
 
@@ -1015,7 +1017,8 @@ section,
 }
 
 .hero .animated {
-  border-radius: 18px; /* smooth corners */
+  border-radius: 18px;
+  /* smooth corners */
 
 }
 
@@ -1870,7 +1873,7 @@ section,
 
 .why-icon {
   font-size: 40px;
-  color: #0d6efd;
+  color: #fda50d;
   margin-bottom: 15px;
 }
 
@@ -1881,7 +1884,7 @@ section,
 
 #why-skytrion p {
   font-size: 15px;
-  color: #6c757d;
+  color: #3d6485;
 }
 
 
@@ -1890,4 +1893,59 @@ section,
 
 .starter-section {
   /* Add your styles here */
+}
+
+
+.product-carousel {
+  padding: 60px 0;
+}
+
+.product-slide {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.product-slide:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.product-slide img {
+  width: 85%;
+  max-height: 250px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  border-radius: 12px;
+}
+
+.product-slide h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.product-slide p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Swiper customization */
+.swiper-pagination-bullet-active {
+  background: #0078ff;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #0078ff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .product-slide img {
+    width: 100%;
+  }
 }

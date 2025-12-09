@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
   <!-- <title>Index - Skytrion Bootstrap Template</title> -->
   <meta name="description" content="">
   <meta name="keywords" content="">
@@ -39,6 +42,9 @@
 </head>
 
 <body class="index-page">
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 
   <header id="header" class="header d-flex align-items-center sticky-top shadow-sm border-bottom">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
@@ -52,9 +58,10 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Products</a></li>
-          <li><a href="portfolio-details.html" class="details-link">Gallery</a></li>
+          <li><a href="#why-skytrion">Why us ?</a></li>
+          <li><a href="#about">About</a></li>          
+          <li><a href="#product-carousel">Products</a></li>
+         
 
           <li><a href="#team">Team</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -117,74 +124,86 @@
     </section><!-- /Hero Section -->
 
     <!-- Why SKYTRION Section -->
-<section id="why-skytrion" class="why-skytrion section light-background">
-  <div class="container section-title" data-aos="fade-up">
-    <span>Why SKYTRION</span>
-    <h2>Why Choose SKYTRION</h2>
-    <p>Reliable, efficient, and performance-driven solutions built for modern material handling needs.</p>
-  </div>
-
-  <div class="container">
-    <div class="row gy-4">
-
-      <!-- Card 1 -->
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-        <div class="why-card shadow-sm">
-          <div class="why-icon">
-            <i class="bi bi-lightning-charge-fill"></i>
-          </div>
-          <h4>Reduced Downtime</h4>
-          <p>Faster, smoother material movement ensuring continuous operations without delays.</p>
-        </div>
+    <section id="why-skytrion" class="why-skytrion section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <span>Why SKYTRION</span>
+        <h2>Why Choose SKYTRION</h2>
+        <p>Reliable, efficient, and performance-driven solutions built for modern material handling needs.</p>
       </div>
 
-      <!-- Card 2 -->
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-        <div class="why-card shadow-sm">
-          <div class="why-icon">
-            <i class="bi bi-gear-wide-connected"></i>
+      <div class="container">
+        <div class="row gy-4">
+
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="why-card shadow-sm">
+              <div class="why-icon">
+                <i class="bi bi-lightning-charge-fill"></i>
+              </div>
+              <h4>Reduced Downtime</h4>
+              <p>Faster, smoother material movement ensuring continuous operations without delays.</p>
+            </div>
           </div>
-          <h4>Custom-Engineered Solutions</h4>
-          <p>Tailor-made equipment—not generic products—to suit your exact warehouse needs.</p>
+
+          <!-- Card 2 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="why-card shadow-sm">
+              <div class="why-icon">
+                <i class="bi bi-gear-wide-connected"></i>
+              </div>
+              <h4>Custom-Engineered Solutions</h4>
+              <p>Tailor-made equipment—not generic products—to suit your exact warehouse needs.</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="why-card shadow-sm">
+              <div class="why-icon">
+                <i class="bi bi-headset"></i>
+              </div>
+              <h4>Rapid Service Support</h4>
+              <p>Quick on-site and remote service support to keep your operations uninterrupted.</p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="why-card shadow-sm">
+              <div class="why-icon">
+                <i class="bi bi-graph-up-arrow"></i>
+              </div>
+              <h4>Proven Productivity Boost</h4>
+              <p>Our solutions consistently drive measurable improvements in efficiency and output.</p>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="why-card shadow-sm">
+              <div class="why-icon">
+                <i class="bi bi-people-fill"></i>
+              </div>
+              <h4>One Trusted Partner</h4>
+              <p>A complete ecosystem—equipment, service, safety, and support—all under one roof.</p>
+            </div>
+          </div>
+
+          <!-- Card 6-->
+           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="why-card shadow-sm">
+              <div class="why-icon">
+                <i class="bi bi-people-fill"></i>
+              </div>
+<h4>Customized Solutions</h4>
+              <p>Our expertise allows us to deliver tailored solutions that enhance productivity, optimize operations,
+                and meet unique client requirements.</p>
+            </div>
+          </div>
+
         </div>
       </div>
-
-      <!-- Card 3 -->
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="why-card shadow-sm">
-          <div class="why-icon">
-            <i class="bi bi-headset"></i>
-          </div>
-          <h4>Rapid Service Support</h4>
-          <p>Quick on-site and remote service support to keep your operations uninterrupted.</p>
-        </div>
-      </div>
-
-      <!-- Card 4 -->
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-        <div class="why-card shadow-sm">
-          <div class="why-icon">
-            <i class="bi bi-graph-up-arrow"></i>
-          </div>
-          <h4>Proven Productivity Boost</h4>
-          <p>Our solutions consistently drive measurable improvements in efficiency and output.</p>
-        </div>
-      </div>
-
-      <!-- Card 5 -->
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-        <div class="why-card shadow-sm">
-          <div class="why-icon">
-            <i class="bi bi-people-fill"></i>
-          </div>
-          <h4>One Trusted Partner</h4>
-          <p>A complete ecosystem—equipment, service, safety, and support—all under one roof.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
+    </section>
 
 
     <!-- Featured Services Section -->
@@ -194,8 +213,8 @@
 
         <div class="row gy-4"> -->
 
-          <!-- Service Item 1 -->
-          <!-- <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+    <!-- Service Item 1 -->
+    <!-- <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-truck icon"></i></div>
               <h4><a href="" class="stretched-link">Material Handling Equipment</a></h4>
@@ -203,10 +222,10 @@
                 durability across industries.</p>
             </div>
           </div> -->
-          <!-- End Service Item -->
+    <!-- End Service Item -->
 
-          <!-- Service Item 2 -->
-          <!-- <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
+    <!-- Service Item 2 -->
+    <!-- <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-gear icon"></i></div>
               <h4><a href="" class="stretched-link">Customized Solutions</a></h4>
@@ -214,10 +233,10 @@
                 and meet unique client requirements.</p>
             </div>
           </div> -->
-          <!-- End Service Item -->
+    <!-- End Service Item -->
 
-          <!-- Service Item 3 -->
-          <!-- <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
+    <!-- Service Item 3 -->
+    <!-- <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
               <div class="icon"><i class="bi bi-shield-check icon"></i></div>
               <h4><a href="" class="stretched-link">After-Sales Support</a></h4>
@@ -225,11 +244,11 @@
                 performance of our products.</p>
             </div>
           </div> -->
-          <!-- End Service Item -->
+    <!-- End Service Item -->
 
-        </div>
+    </div>
 
-      </div>
+    </div>
 
     </section><!-- /Featured Services Section -->
 
@@ -464,192 +483,90 @@
 
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+    <section id="product-carousel" class="product-carousel section">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <span>Gallery</span>
-        <h2>Gallery</h2>
-        <p>Explore our Gallery to see how we transform ideas into powerful
-          solutions—crafted with expertise, innovation, and attention to detail.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Battery Operated</li>
-            <li data-filter=".filter-product">Material Handling</li>
-            <li data-filter=".filter-branding">Drum Handling</li>
-            <li data-filter=".filter-books">Racking Systems</li>
-            <li data-filter=".filter-product">Forklifts</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/portfolio/app-1.png" class="img-fluid" alt="">
-              <!-- <div class="portfolio-info">
-
-                <p>Battery stacker Cap: 1000-2000 kg ,Lift height upto 6300 mm</p>
-                <a href="assets/img/portfolio/app-1.png" title="App 1" data-gallery="portfolio-gallery-app"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div>
-            <!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolio/product-1.png" class="img-fluid" alt="">
-              <!-- <div class="portfolio-info">
-
-                <a href="assets/img/portfolio/product-1.png" title="Product 1" data-gallery="portfolio-gallery-product"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/portfolio/branding-1.png" class="img-fluid" alt="">
-              <!-- <div class="portfolio-info">
-              
-                <a href="assets/img/portfolio/branding-1.png" title="Branding 1"
-                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="assets/img/portfolio/books-1.png" class="img-fluid" alt="">
-              <!-- <div class="portfolio-info">
-             
-                <a href="assets/img/portfolio/books-1.png" title="Branding 1" data-gallery="portfolio-gallery-book"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/portfolio/app-2.png" class="img-fluid" alt="">
-              <!-- <div class="portfolio-info">
-               
-                <a href="assets/img/portfolio/app-2.png" title="App 2" data-gallery="portfolio-gallery-app"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolio/product-2.png" class="img-fluid" alt="">
-              <!-- <div class="portfolio-info">
-             
-                <a href="assets/img/portfolio/product-2.png" title="Product 2" data-gallery="portfolio-gallery-product"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/portfolio/branding-2.png" class="img-fluid" alt="">
-              <!-- <div class="portfolio-info">
-                
-                <a href="assets/img/portfolio/branding-2.png" title="Branding 2"
-                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="assets/img/portfolio/books-2.png" class="img-fluid" alt="">
-              <!-- <div class="portfolio-info">
-              
-                <a href="assets/img/portfolio/books-2.png" title="Branding 2" data-gallery="portfolio-gallery-book"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-              <!-- <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/app-3.png" title="App 3" data-gallery="portfolio-gallery-app"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/portfolio/product-3.png" class="img-fluid" alt="">
-              <!-- <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/product-3.png" title="Product 3" data-gallery="portfolio-gallery-product"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/portfolio/branding-3.png" class="img-fluid" alt="">
-              <!-- <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/branding-3.png" title="Branding 2"
-                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <img src="assets/img/portfolio/books-3.png" class="img-fluid" alt="">
-              <!-- <div class="portfolio-info">
-                <h4>Books 3</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                <a href="assets/img/portfolio/books-3.png" title="Branding 3" data-gallery="portfolio-gallery-book"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                    class="bi bi-link-45deg"></i></a>
-              </div> -->
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
+        <span>Featured Products</span>
+        <h2>Our Product Showcase</h2>
+        <p>A quick look at our best-selling industrial & material handling equipment.</p>
       </div>
 
-    </section><!-- /Portfolio Section -->
+      <div class="container">
+        <div class="swiper myProductSwiper">
+          <div class="swiper-wrapper">
+
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+              <div class="product-slide">
+                <img src="assets/img/portfolio/app-1.png" alt="Battery Stacker">
+                <h4>Battery Stacker</h4>
+                <p>Capacity: 1000–2000 kg | Lift Height: up to 6300 mm</p>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+              <div class="product-slide">
+                <img src="assets/img/portfolio/product-1.png" alt="Hand Pallet Truck">
+                <h4>Hand Pallet Truck</h4>
+                <p>Capacity: 2500 kg | Heavy-duty Steel Frame</p>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+              <div class="product-slide">
+                <img src="assets/img/portfolio/branding-1.png" alt="Drum Lifter">
+                <h4>Drum Lifter</h4>
+                <p>Handles 210L drums | Robust Design</p>
+              </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="swiper-slide">
+              <div class="product-slide">
+                <img src="assets/img/portfolio/books-3 (2).png" alt="Racking Systems">
+                <h4>Racking Systems</h4>
+                <p>Industrial Grade | Maximum Storage Efficiency</p>
+              </div>
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="swiper-slide">
+              <div class="product-slide">
+                <img src="assets/img/portfolio/product-2.png" alt="Electric Forklift">
+                <h4>Electric Forklift</h4>
+                <p>Eco-friendly | High Load Capacity</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- Navigation Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+
+        </div>
+      </div>
+    </section>
+
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section light-background">
+    <!-- <section id="testimonials" class="testimonials section light-background"> -->
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <!-- <div class="container section-title" data-aos="fade-up">
         <span>Testimonials</span>
         <h2>Testimonials</h2>
         <p>Trusted by businesses nationwide, our solutions have helped clients reduce downtime, increase output, and
           create safer, more efficient workplaces</p>
-      </div><!-- End Section Title -->
+      </div> -->
+      <!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <!-- <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="swiper init-swiper" data-speed="600" data-delay="5000"
           data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 40 } }">
@@ -692,9 +609,10 @@
                 <h3>Saul Goodman</h3>
                 <h4>Ceo &amp; Founder</h4>
               </div>
-            </div><!-- End testimonial item -->
+            </div> -->
+            <!-- End testimonial item -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
@@ -706,9 +624,10 @@
                 <h3>Sara Wilsson</h3>
                 <h4>Designer</h4>
               </div>
-            </div><!-- End testimonial item -->
+            </div> -->
+            <!-- End testimonial item -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
@@ -720,9 +639,10 @@
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
               </div>
-            </div><!-- End testimonial item -->
+            </div> -->
+            <!-- End testimonial item -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
@@ -734,9 +654,10 @@
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
               </div>
-            </div><!-- End testimonial item -->
+            </div> -->
+            <!-- End testimonial item -->
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
@@ -748,15 +669,17 @@
                 <h3>John Larson</h3>
                 <h4>Entrepreneur</h4>
               </div>
-            </div><!-- End testimonial item -->
-
+            </div> -->
+            <!-- End testimonial item -->
+<!-- 
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
 
-    </section><!-- /Testimonials Section -->
+    </section> -->
+    <!-- /Testimonials Section -->
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section accent-background">
@@ -784,9 +707,10 @@
       <div class="container section-title" data-aos="fade-up">
         <span>Team Members</span>
         <h2>Team</h2>
-        <p>With 100+ years of combined industry experience, our founders have worked closely with leading Indian 
+        <p>With 100+ years of combined industry experience, our founders have worked closely with leading Indian
           and global players in the material handling sector. This expertise allows
-           us to deliver innovative solutions that improve efficiency, safety and productivity across multiple industries.</p>
+          us to deliver innovative solutions that improve efficiency, safety and productivity across multiple
+          industries.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -900,45 +824,45 @@
             </div>
           </div>
           <div class="col-lg-7">
-  <div class="info-wrap">
-    <form action="https://formsubmit.co/ravisharma@skytrionindia.com" method="POST" data-aos="fade-up"
-      data-aos-delay="200">
+            <div class="info-wrap">
+              <form action="https://formsubmit.co/ravisharma@skytrionindia.com" method="POST" data-aos="fade-up"
+                data-aos-delay="200">
 
-      <!-- Disable FormSubmit Captcha -->
-      <input type="hidden" name="_captcha" value="false">
+                <!-- Disable FormSubmit Captcha -->
+                <input type="hidden" name="_captcha" value="false">
 
-      <!-- Redirect to custom thank-you page -->
-       <input type="hidden" name="_next" value="http://127.0.0.1:5501/thank-you.html">
+                <!-- Redirect to custom thank-you page -->
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/thank-you.html">
 
 
-      <div class="row gy-4">
-        <div class="col-md-6">
-          <label for="name-field" class="pb-2">Your Name</label>
-          <input type="text" name="name" id="name-field" class="form-control" required>
-        </div>
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <label for="name-field" class="pb-2">Your Name</label>
+                    <input type="text" name="name" id="name-field" class="form-control" required>
+                  </div>
 
-        <div class="col-md-6">
-          <label for="email-field" class="pb-2">Your Email</label>
-          <input type="email" class="form-control" name="email" id="email-field" required>
-        </div>
+                  <div class="col-md-6">
+                    <label for="email-field" class="pb-2">Your Email</label>
+                    <input type="email" class="form-control" name="email" id="email-field" required>
+                  </div>
 
-        <div class="col-md-12">
-          <label for="subject-field" class="pb-2">Subject</label>
-          <input type="text" class="form-control" name="subject" id="subject-field" required>
-        </div>
+                  <div class="col-md-12">
+                    <label for="subject-field" class="pb-2">Subject</label>
+                    <input type="text" class="form-control" name="subject" id="subject-field" required>
+                  </div>
 
-        <div class="col-md-12">
-          <label for="message-field" class="pb-2">Message</label>
-          <textarea class="form-control" name="message" rows="10" id="message-field" required></textarea>
-        </div>
+                  <div class="col-md-12">
+                    <label for="message-field" class="pb-2">Message</label>
+                    <textarea class="form-control" name="message" rows="10" id="message-field" required></textarea>
+                  </div>
 
-        <div class="col-md-12 text-center">
-          <button type="submit" class="btn-sendmsg">Send Message</button>
-        </div>
-      </div>
-    </form>
-  </div>
-</div>
+                  <div class="col-md-12 text-center">
+                    <button type="submit" class="btn-sendmsg">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
 
 
         </div>
@@ -1052,6 +976,33 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    var swiper = new Swiper(".myProductSwiper", {
+      loop: true,
+      centeredSlides: true,
+      slidesPerView: 3,
+      spaceBetween: 30,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        0: { slidesPerView: 1 },
+        576: { slidesPerView: 1.5 },
+        768: { slidesPerView: 2 },
+        992: { slidesPerView: 3 }
+      }
+    });
+  </script>
+
 
 </body>
 
