@@ -2054,3 +2054,20 @@ section,
   transform: scale(1.05);
   z-index: 10;
 }
+
+.clients-section {
+  background: rgb(243, 247, 247);; /* Light grey */
+  padding: 60px 0;
+}
+
+.client-logo {
+  width: 120px;
+  transition: all 0.3s ease;
+  opacity: 0.95;
+}
+
+.client-logo:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
